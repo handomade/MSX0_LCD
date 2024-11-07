@@ -29,7 +29,7 @@ TINY *node;
 	*c1 = *c1 + rs;
 	iotpts(node,c1);
 
-	*c1 = *c1 & 0xF8;
+	*c1 = *c1 & 0xF9;
 	iotpts(node,c1);
 }
 
