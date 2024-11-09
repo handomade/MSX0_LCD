@@ -70,7 +70,7 @@ TINY *node;
 			a[cnt] = a[cnt] | 0x0C;
 			a[cnt] = a[cnt] + 1;
 			cnt++;
-			a[cnt] = a[cnt - 1] & 0xF8;
+			a[cnt] = a[cnt - 1] & 0xF9;
 			cnt++;
 			b = b << 4;
 		}
